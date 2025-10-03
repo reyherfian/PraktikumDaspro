@@ -14,7 +14,7 @@ public class nestedUjianSkripsi03 {
         int bimbinganP1 = sc.nextInt();
         System.out.println("Masukkan jumlah log bimbingan pembimbing 2: ");
         int bimbinganP2 = sc.nextInt();
-
+        
         if  (bebasKompen.equalsIgnoreCase("Ya")) {
             if (bimbinganP1 >= 8 && bimbinganP2 >= 4) {
                 pesan = "Semua syarat terpenuhi. Mahasiswa boleh mendaftar ujian skripsi";
