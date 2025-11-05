@@ -20,6 +20,10 @@ public class nilaiKelompok03 {
             rataNilai = totalNilai / 5;
             System.out.println("Kelompok " + i + " nilai rata-rata: " + rataNilai);
 
+            if (rataNilai > tinggi) {
+                tinggi = rataNilai;
+                tertinggi = i;
+            }
 
             i++;
         }
