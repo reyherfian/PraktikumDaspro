@@ -1,0 +1,9 @@
+        //rata-rata penjualan buku pada kategori pendidikan
+        System.out.println("==== Rata-rata penjualan buku kategori pendidikan ====");
+        for (int i = 0; i < kategori03; i++) {
+            double total = 0;
+            for (int j = 0; j < hari03; j++) {
+                total += toko[i][j];
+            }
+        }
+        pendidikan03/3;
